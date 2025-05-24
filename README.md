@@ -84,7 +84,13 @@ npm run dev
 
 ## 📸 Screenshots
 
+Sign up UI
+
 ![Sign up UI](https://github.com/Asif-000/Chat-App/blob/main/assests/Sign-up.jpg?raw=true)
+
+chat
+
+![Chat UI](https://github.com/Asif-000/Chat-App/blob/main/assests/chat.jpg?raw=true)
 
 
 
