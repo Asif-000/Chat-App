@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# 💬 Chat App
 
-## Project info
+A real-time web-based chat application where users can sign up, verify their email, and chat with others using text, emojis, and file sharing. Simple, interactive, and built for demo and development use.
 
-**URL**: https://lovable.dev/projects/4082b48e-499d-49b7-b373-f9d07f0d3cc1
+## 🌐 Live Demo
 
-## How can I edit this code?
+[Click here to try the app live](https://your-live-site-url.com)
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/4082b48e-499d-49b7-b373-f9d07f0d3cc1) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## 🛠️ Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- ⚡ Vite
+- 🟦 TypeScript
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 🧩 [shadcn/ui](https://ui.shadcn.com/)
+- 🛢️ Supabase (Auth + Realtime DB)
+- ▲ Deployed on Vercel
 
-## How can I deploy this project?
+## 🚀 Features
 
-Simply open [Lovable](https://lovable.dev/projects/4082b48e-499d-49b7-b373-f9d07f0d3cc1) and click on Share -> Publish.
+- ✅ Email & password authentication
+- ✉️ Email verification required to log in
+- 🧑‍🤝‍🧑 Add other users as chat contacts
+- 💬 Real-time messaging
+- 😊 Emoji support
+- 📁 Send and receive files
+- 🔒 Works in multiple sessions (e.g. private/incognito windows)
 
-## Can I connect a custom domain to my Lovable project?
+## 📦 Getting Started
 
-Yes, you can!
+### 1. Clone the Repository
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+git clone https://github.com/Asif-000/Chat-App.git
+cd Chat-App
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 2. Install Dependencies (if required)
+
+If your project uses Node.js or package managers:
+
+```bash
+npm install
+```
+
+Otherwise, open `index.html` directly in a browser or use a live server extension.
+
+### 3. Configure Backend
+
+- Set up your authentication and database (e.g., Supabase, Firebase).
+- Add your API keys/config in the config file (e.g., `config.js`, `supabase.js`, or `.env` depending on your setup).
+
+## 🧑‍💻 How to Use
+
+### 🔐 Sign Up and Verify
+
+1. Go to the **Sign Up** page.
+2. Enter a **username**, **email**, and **password**.
+3. Check your email and **verify your email address**.
+4. You **cannot log in until your email is verified**.
+
+> ⚠️ Attempting to log in before verification will be blocked.
+
+### 👥 Add Other Users
+
+- Once logged in, you'll see a list of users.
+- Select a user and send a request to chat.
+- You can also open a **private/incognito window** and register another user to simulate multiple users chatting.
+
+### 💬 Start Chatting
+
+- After adding a user, start sending messages.
+- Use the emoji picker to include emojis in your messages.
+- Upload and send files like images and documents.
+
+## 🧪 Testing Tips
+
+- Use **private/incognito windows** to log in with different users and chat between them in real time.
+- Some test/demo users may already be available for chatting.
+
+## 📸 Screenshots
+
+_Add screenshots here if available (UI, chat page, etc.)._
+
+
