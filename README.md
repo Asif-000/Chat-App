@@ -84,7 +84,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-![Sign up UI](./public\Sign-up.jpg)
+![Sign up UI](./assets\Sign-up.jpg)
 
 
 
