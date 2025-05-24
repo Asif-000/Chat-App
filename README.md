@@ -37,15 +37,17 @@ git clone https://github.com/Asif-000/Chat-App.git
 cd Chat-App
 ```
 
-### 2. Install Dependencies (if required)
-
-If your project uses Node.js or package managers:
+### 2. Install Dependencies 
 
 ```bash
 npm install
 ```
 
-Otherwise, open `index.html` directly in a browser or use a live server extension.
+### 4. Run the App
+
+```bash
+npm run dev
+```
 
 ### 3. Configure Backend
 
@@ -82,6 +84,7 @@ Otherwise, open `index.html` directly in a browser or use a live server extensio
 
 ## 📸 Screenshots
 
-_Add screenshots here if available (UI, chat page, etc.)._
+![Sign up UI](public\Sign-up.jpg)
+
 
 
