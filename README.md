@@ -84,7 +84,9 @@ npm run dev
 
 ## 📸 Screenshots
 
-![Sign up UI](./assets/Sign-up.jpg)
+Here is the sign-up UI:
+
+<img src="./assets/Sign-up.jpg" alt="Sign up UI" width="500" />
 
 
 
