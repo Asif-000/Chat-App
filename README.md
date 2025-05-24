@@ -4,7 +4,7 @@ A real-time web-based chat application where users can sign up, verify their ema
 
 ## 🌐 Live Demo
 
-[Click here to try the app live](https://your-live-site-url.com)
+https://chat-app-two-gold.vercel.app/
 
 ## 🛠️ Tech Stack
 
@@ -43,13 +43,13 @@ cd Chat-App
 npm install
 ```
 
-### 4. Run the App
+### 3. Run the App
 
 ```bash
 npm run dev
 ```
 
-### 3. Configure Backend
+### 4. Configure Backend
 
 - Set up your authentication and database (e.g., Supabase, Firebase).
 - Add your API keys/config in the config file (e.g., `config.js`, `supabase.js`, or `.env` depending on your setup).
