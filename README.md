@@ -84,9 +84,7 @@ npm run dev
 
 ## 📸 Screenshots
 
-Here is the sign-up UI:
-
-<img src="./assets/Sign-up.jpg" alt="Sign up UI" width="500" />
+![Sign up UI](https://github.com/Asif-000/Chat-App/blob/main/assests/Sign-up.jpg?raw=true)
 
 
 
